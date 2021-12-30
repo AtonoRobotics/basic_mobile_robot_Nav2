@@ -63,10 +63,10 @@
             <name>ModelPreview_4::base_link::base_visual_MATERIAL_</name>
             <uri>__default__</uri>
           </script>
-          <ambient>0 0 0 1</ambient>
-          <diffuse>0 0 0 1</diffuse>
-          <specular>0 0 0 1</specular>
-          <emissive>0 0 0 1</emissive>
+          <ambient>1 0.721 0.109 1</ambient>
+          <diffuse>1 0.721 0.109 0.6</diffuse>
+          <specular>0 0 0 0.5</specular>
+          <emissive>1 0.721 0.109 0.5</emissive>
         </material>
         <transparency>0</transparency>
         <cast_shadows>1</cast_shadows>
@@ -162,7 +162,7 @@
             <name>ModelPreview_4::cage_link::cage_visual_MATERIAL_</name>
             <uri>__default__</uri>
           </script>
-          <ambient>0 0 0 1</ambient>
+          <ambient>0.05 0.05 0.05 1</ambient>
           <diffuse>0 0 0 1</diffuse>
           <specular>0 0 0 1</specular>
           <emissive>0 0 0 1</emissive>
@@ -587,7 +587,7 @@
         </inertia>
         <mass>0.114</mass>
       </inertial>
-      
+
       <sensor name='lidar' type='ray'>
         <pose>0 0 0.025 0 -0 0</pose>
         <always_on>1</always_on>

@@ -57,7 +57,7 @@
         <mesh filename="package://basic_mobile_robot/meshes/chassis.stl" />
       </geometry>
       <material name="Yellow">
-        <color rgba="${255/255} ${0/255} ${0/255} 1.0"/>
+        <color rgba="1 0.721 0.109 1.0"/>
       </material>
     </visual>
 
